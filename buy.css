@@ -1,8 +1,13 @@
+body
+{
+    text-align: center;
+}
 .article h1
 {
     text-decoration: underline;
 }
-.articleBooks img
+
+.articleContainer img
 {
     width: 121px;
     height: 116px;
