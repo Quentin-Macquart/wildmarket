@@ -1,0 +1,17 @@
+/* Index part */
+
+.homeImg {
+    background : url("assets/homepicture.jpg");
+    background-size : cover;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+
+}
+
+.homeh1, .homeh2{
+    position : relative;
+    color : palevioletred;
+}
+
+/* Index part */
