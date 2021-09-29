@@ -1,1 +1,16 @@
-
+body {
+    position: relative;
+}
+footer {
+    display: flex;
+    background-color: #f76c6c;
+    justify-content: center;
+    height: 5vh;
+    padding-bottom: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+footer a {
+    padding: 15px;
+}
