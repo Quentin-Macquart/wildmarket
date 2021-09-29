@@ -6,9 +6,8 @@ footer {
     background-color: #f76c6c;
     justify-content: center;
     height: 5vh;
-    padding-bottom: 8px;
+    padding-bottom: 0px;
     position: absolute;
-    bottom: 0;
     width: 100vw;
 }
 footer a {

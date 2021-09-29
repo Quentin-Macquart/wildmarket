@@ -8,16 +8,10 @@ body
     text-decoration: underline;
     font-weight: bold;
     font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
 }
-
-/* .articleContainer img
-{
-    width: 150px;
-    height: 150px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    margin: 20px;
-} */
 
 .articleContainer
 {
@@ -45,9 +39,9 @@ body
 .texteArticle
 {
     position: absolute;
-    margin-left : 15%;
-    margin-top: 2%;
-    width: 15%;
+    margin-left : 175px;
+    margin-top: 18px;
+    width: 170px;
 }
 
 span
@@ -59,11 +53,11 @@ span
 {
     position: absolute;
     background: #F76C6C;
-    width: 12%;
+    width: 170px;;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    margin-left : 17%;
-    margin-top: 12%;
+    margin-left : 175px;
+    margin-top: 130px;
 }
 
 details
@@ -89,45 +83,3 @@ details img
     
 }
 
-/*Formulaire*/
-#contactForm {
-    display: flex;
-    flex-direction: column;
-     margin: auto;
-     width: 50vw;
-     height: 70vh;
-     padding: 40px;
-     font: bold;
-}
-
-input {
-    height: 30px;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    height: 3rem;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 16px;
-    color: white;
-    background-color: #f76c6c;
-}
-
-label {
-    padding: 10px;
-    font-weight: bold;
-}
-
-textarea {
-    height: 130px;
-    margin: 5px;
-}
-
-.button {
-    width: 30%;
-    align-self: center;
-    margin: 10px;
-    border-radius: 30px;
-}
