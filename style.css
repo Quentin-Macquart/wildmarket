@@ -1,3 +1,15 @@
 
+footer {
+    display: flex;
+    background-color: #f76c6c;
+    justify-content: center;
+    height: 5vh;
+    padding-bottom: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
 
-/*CSS Soda.html*/
+footer a {
+    padding: 15px;
+}

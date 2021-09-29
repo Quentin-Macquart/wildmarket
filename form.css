@@ -5,7 +5,7 @@
      margin: auto;
      width: 50vw;
      height: 70vh;
-     padding: 70px;
+     padding: 40px;
      font: bold;
 }
 
@@ -16,10 +16,10 @@ input {
 h1 {
     display: flex;
     justify-content: center;
-    height: 5rem;
+    height: 3rem;
     font-size: 40px;
     font-weight: bold;
-    padding: 17px;
+    padding: 16px;
     color: white;
     background-color: #f76c6c;
 }
@@ -30,7 +30,7 @@ label {
 }
 
 textarea {
-    height: 150px;
+    height: 130px;
     margin: 5px;
 }
 
