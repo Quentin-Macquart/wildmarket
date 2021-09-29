@@ -3,6 +3,17 @@ body
     text-align: center;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 16px;
+    color: white;
+    background-color: #f76c6c;
+}
+
 .articleContainer
 {
  width: 363px;
