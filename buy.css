@@ -88,3 +88,46 @@ details img
     justify-content: space-evenly;
     
 }
+
+/*Formulaire*/
+#contactForm {
+    display: flex;
+    flex-direction: column;
+     margin: auto;
+     width: 50vw;
+     height: 70vh;
+     padding: 40px;
+     font: bold;
+}
+
+input {
+    height: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 16px;
+    color: white;
+    background-color: #f76c6c;
+}
+
+label {
+    padding: 10px;
+    font-weight: bold;
+}
+
+textarea {
+    height: 130px;
+    margin: 5px;
+}
+
+.button {
+    width: 30%;
+    align-self: center;
+    margin: 10px;
+    border-radius: 30px;
+}
