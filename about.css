@@ -1,32 +1,72 @@
 /* partie about */
 
-body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR10yx1xLZPAqUVeUZnaBULXWc9wKe69tCKhA&usqp=CAU);
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+/*added fonts*/
+@font-face {
+    font-family: 'tahuregular';
+    src: url('font/tahu-webfont.woff2') format('woff2'),
+         url('font/tahu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-.titre {
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*text part*/
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    margin: 0;
+}
+
+.about {
     text-align: center; 
-    text-decoration: underline;
-    font-size: 5em;
+    font-size: 4em;
     color: rgb(26, 25, 24);
-    background-color: palegoldenrod;
+    background-color: #F76C6C;
+    font-family: 'tahuregular';
 }
 
 .second {
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     margin-top: 3em;
-    background-color: palegoldenrod;
+    background-color:#F76C6C;
 }
+
+/*animation*/
+.box{
+    height:100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+#box1{
+    background-color: #F76C6C;
+}
+#box2{
+    background-color: white;
+}
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 70%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
     
-.about {
-    text-align: center;
-    font-size: 3em;
-    margin: 20%;
-    background-color:palegoldenrod;
-}
+
 
 
 
