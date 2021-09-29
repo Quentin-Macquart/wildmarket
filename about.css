@@ -1,6 +1,6 @@
 /* partie about */
 
-body{
+body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR10yx1xLZPAqUVeUZnaBULXWc9wKe69tCKhA&usqp=CAU);
     background-size: cover;
     margin-left: auto;
@@ -12,7 +12,8 @@ body{
     font-size: 5em;
     color: rgb(26, 25, 24);
     background-color: palegoldenrod;
-    }
+}
+
 .second {
     text-align: center;
     font-size: 4em;
@@ -20,10 +21,12 @@ body{
     background-color: palegoldenrod;
 }
     
-    .about {
-        text-align: center;
-        font-size: 3em;
-        margin: 20%;
-        background-color:palegoldenrod;
-    }
+.about {
+    text-align: center;
+    font-size: 3em;
+    margin: 20%;
+    background-color:palegoldenrod;
+}
+
+
 
