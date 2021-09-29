@@ -1,0 +1,72 @@
+/* partie about */
+
+/*added fonts*/
+@font-face {
+    font-family: 'tahuregular';
+    src: url('font/tahu-webfont.woff2') format('woff2'),
+         url('font/tahu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*text part*/
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    margin: 0;
+}
+
+.about {
+    text-align: center; 
+    font-size: 4em;
+    color: rgb(26, 25, 24);
+    background-color: #F76C6C;
+    font-family: 'tahuregular';
+}
+
+.second {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 3em;
+    background-color:#F76C6C;
+}
+
+/*animation*/
+.box{
+    height:100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+#box1{
+    background-color: #F76C6C;
+}
+#box2{
+    background-color: white;
+}
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 70%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+    
+
+
+
+

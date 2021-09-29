@@ -2,14 +2,23 @@ body
 {
     text-align: center;
 }
-.article h1
+
+.article summary
 {
     text-decoration: underline;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .articleContainer img
 {
     width: 121px;
     height: 116px;
-    border: 1px solid #000000; 
+    border: 1px solid #000000;
+    margin: 20px; 
+}
+
+details
+{
+    padding: 20px;
 }
