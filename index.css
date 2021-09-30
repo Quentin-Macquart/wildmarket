@@ -21,20 +21,28 @@ body{
 
 /*shop name*/
 .homeImg {
-    background-image: url('assets/homepicture.jpg');
+    /* background-image: url('assets/homepage.jpeg');
     background-size: cover;   
-    padding: 45%;
-    position: relative;
+    padding: 48%; */
     text-align: center;
     color: #f76c6c; 
-    opacity: 90%;
+    opacity: 100%;
+    overflow:hidden;
   }
-  
+
+  .bgImg{
+      width: auto;
+      height: 400px;
+      transform: translate(-150px, 0);
+      overflow: hidden;
+      position: relative;
+
+  }
 
   .wildmarket {
     position: absolute;
     width: 100%;
-    top: 65%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
@@ -70,7 +78,7 @@ body{
     margin-top: 10%;
 }
 
-/* Marquee*/
+                    /* Marquee*/
 
 .marquee-container{
     display: flex;
@@ -105,7 +113,8 @@ body{
     }
 }
 
-/*carousel*/
+
+                    /*carousel*/
 .carouselContain{
     margin-left: 23%;
     width: 200px;
@@ -118,6 +127,8 @@ body{
     animation-duration: 8s;
     animation-name: slides;
     animation-iteration-count: infinite;
+    width: 200px;
+    height: 200px;
 }
 
 @keyframes slides {
