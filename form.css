@@ -1,3 +1,21 @@
+/*added fonts*/
+@font-face {
+    font-family: 'tahuregular';
+    src: url('font/tahu-webfont.woff2') format('woff2'),
+         url('font/tahu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /*Formulaire*/
 #contactForm {
     display: flex;
@@ -20,8 +38,9 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     padding: 16px;
-    color: white;
-    background-color: #f76c6c;
+    color: #f76c6c;
+    font-family: 'tahuregular';
+  
 }
 
 label {
@@ -31,12 +50,16 @@ label {
 
 textarea {
     height: 130px;
-    margin: 5px;
+    width: 15rem;
+    align-self: center;
+
 }
 
 .button {
-    width: 30%;
+    border-radius: 20px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3%;
+    font-size: medium;
+    width: 60%;
     align-self: center;
-    margin: 10px;
-    border-radius: 30px;
 }

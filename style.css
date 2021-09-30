@@ -1,6 +1,7 @@
-<<<<<<< HEAD
-=======
 
+body {
+    position: relative;
+}
 footer {
     display: flex;
     background-color: #f76c6c;
@@ -15,4 +16,3 @@ footer {
 footer a {
     padding: 15px;
 }
->>>>>>> 5551ab0a4848afdb45d455023cd69232fcabc2b7
