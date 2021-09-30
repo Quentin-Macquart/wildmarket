@@ -2,14 +2,13 @@
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 18px;
-    padding: 16px;
-    color: white;
-    background-color: #f76c6c;
-    margin: 0;
+    padding: 18px;
+    color: #f76c6c;
+    background-color: rgb(247, 243, 243);
     position: relative;
-    top: 0;
+    margin-top: 0;
     width: 100vw;
+    font-family: 'tahuregular';
 }
 
 p {

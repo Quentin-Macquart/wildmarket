@@ -9,8 +9,9 @@ footer {
     height: 5vh;
     padding-bottom: 0px;
     position: absolute;
-    width: 103%
+    width: 100%
 }
 footer a {
     padding: 15px;
+    color: white;
 }
