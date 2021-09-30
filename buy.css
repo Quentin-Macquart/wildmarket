@@ -1,3 +1,20 @@
+/*added fonts*/
+@font-face {
+    font-family: 'tahuregular';
+    src: url('font/tahu-webfont.woff2') format('woff2'),
+         url('font/tahu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body
 {
     text-align: center;
@@ -12,7 +29,11 @@ h1 {
     font-weight: bold;
     padding: 16px;
     color: white;
-    background-color: #f76c6c;
+    background-color: #FFFFFF;
+    color : #f76c6c;
+    font-family: 'tahuregular';
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .articleContainer
@@ -22,7 +43,7 @@ h1 {
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  border-radius: 20px;
  display: flex;
- justify-content: flex-start;
+ justify-content: space-evenly;
  margin: 10px;
 }
 
@@ -49,7 +70,7 @@ img
 .texteArticle
 {
     position: absolute;
-    margin-left : 175px;
+    margin-left : 155px;
     margin-top: 18px;
     width: 170px;
 }
@@ -57,6 +78,8 @@ img
 span
 {
     font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .buy
@@ -66,7 +89,7 @@ span
     width: 98px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    margin-left : 210px;
+    margin-left : 165px;
     margin-top: 130px;
 }
 
@@ -74,5 +97,11 @@ span
 {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 45px;
+}
+
+footer
+{
+    margin-top: 40px;
 }
 
