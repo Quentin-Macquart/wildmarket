@@ -1,0 +1,97 @@
+/*added fonts*/
+@font-face {
+    font-family: 'tahuregular';
+    src: url('font/tahu-webfont.woff2') format('woff2'),
+         url('font/tahu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer {
+    display: flex;
+    background-color: #F76C6C;
+    justify-content: center;
+    height: 5vh;
+    padding-bottom: 0px;
+    position: absolute;
+    width: 103%
+}
+
+footer a {
+    padding: 15px;
+}
+
+section.cardSoda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.soda {
+    width: 250px;
+    height: 250px;
+    margin-top: 20%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 20);
+    border-radius: 20px;
+    border: solid black 1px;
+    
+}
+.title {
+    font-family: 'Abril Fatface';
+    font-size: 28px;
+    margin-top: 5%;
+}
+.subtitle {
+    font: italic;
+}
+.price {
+
+}
+
+.description {
+    margin-top: 50px;
+    text-align: center;
+    align-self: flex-end;
+    border: solid 2px black;
+}
+
+
+.favoriteBuy {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.favoriteBuy:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.favoriteBuy:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
