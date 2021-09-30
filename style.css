@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 77919c56c23f2a0810267dc1dc0dbc3bbe0ee550
 body {
     position: relative;
 }
+
 footer {
     display: flex;
     background-color: #F76C6C;
@@ -16,4 +13,5 @@ footer {
 }
 footer a {
     padding: 15px;
+    color: white;
 }
