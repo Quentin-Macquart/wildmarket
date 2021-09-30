@@ -28,19 +28,34 @@ div{
 }
 
 .about {
-    text-align: center; 
-    font-size: 4em;
-    color: rgb(26, 25, 24);
-    background-color: #F76C6C;
-    font-family: 'tahuregular';
+    left: 20%;
+    top: 15%;
+    font-size: 5rem;
+    color: white;
+    font-family:'tahuregular';
+    text-align: center;
+    position: absolute;
+    z-index: 2;
 }
 
-.second {
+.titre {
     text-align: center;
-    font-size: 2em;
-    margin-top: 3em;
-    background-color:#F76C6C;
+    font-size: 8 rem;
+    margin-top: 1O%;
+    margin-bottom: 10%;
+    font-family: 'abril Fatface';
+    font-weight: lighter;
+    color: #F76C6C;
 }
+
+p {
+    width: 70%;
+    text-align:justify;
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 
 /*animation*/
 .box{
@@ -49,6 +64,7 @@ div{
 }
 #box1{
     background-color: #F76C6C;
+    position: relative;
 }
 #box2{
     background-color: white;
@@ -66,7 +82,3 @@ img{
 }
 
     
-
-
-
-
