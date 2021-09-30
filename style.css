@@ -1,18 +1,17 @@
+
 body {
     position: relative;
 }
 
 footer {
     display: flex;
-    background-color: #f76c6c;
+    background-color: #F76C6C;
     justify-content: center;
     height: 5vh;
-    padding-bottom: 8px;
+    padding-bottom: 0px;
     position: absolute;
-    bottom: 0;
-    width: 100vw;
+    width: 103%
 }
-
 footer a {
     padding: 15px;
 }
