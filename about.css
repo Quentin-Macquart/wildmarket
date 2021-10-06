@@ -18,6 +18,7 @@
 }
 
 /*text part*/
+
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,7 +40,7 @@ body {
     font-size: 8 rem;
     margin-top: 1O%;
     margin-bottom: 10%;
-    font-family: 'Abril Fatface;
+    font-family: 'Abril Fatface';
     font-weight: lighter;
     color: #F76C6C;
 }
