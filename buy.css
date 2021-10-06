@@ -113,10 +113,11 @@ footer
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 25px;
+        margin :2vh;
         width: auto;
         height: auto;
-        font-size: auto;
+        min-width: 363px;
+        min-height: 176px;
     }
     .texteArticle
     {
@@ -131,30 +132,7 @@ footer
     }  
 }
 
-@media screen and (max-width: 1112px )
-{
-    .articleContainer
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 55px;
-        width: auto;
-        height: auto;
-        font-size: auto;
-    }
-    .texteArticle
-    {
-        position: absolute;
-        margin-left : 175px;
-        margin-top: -88px;
-        width: 170px;
-    }
-    .buy
-    {
-        margin-left : 205px;
-    }
-}
+
 
 @media screen and (max-width: 812px )
 {
@@ -163,10 +141,11 @@ footer
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 55px;
+        margin :2vh;
         width: auto;
         height: auto;
-        font-size: auto;
+        min-width: 363px;
+        min-height: 176px;
     }
     .texteArticle
     {
@@ -181,17 +160,18 @@ footer
     }
 }
 
-@media screen and (max-width: 375px )
+@media screen and (max-width: 3px )
 {
     .articleContainer 
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 25px;
+        margin :2vh;
         width: auto;
         height: auto;
-        font-size: auto;
+        min-width: 363px;
+        min-height: 176px;
     }
     .texteArticle
     {
