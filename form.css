@@ -28,8 +28,8 @@
 
 .adress{
     position: absolute;
-    top: 35%;
-    margin-left: 25%;
+    top: 25%;
+    margin-left: 32%;
 }
 
 #contactForm {
@@ -55,26 +55,28 @@ h1 {
     padding: 16px;
     color: #f76c6c;
     font-family: 'tahuregular';
-  
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 25px;
     padding: 30px;
     position: absolute;
-    top: 15%;
-    margin-left: 30%;
+    top: 10%;
+    margin-left: 55%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 p {
-    display: flex;
-    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 15px;
-    font-size: large;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    line-height: 23px;
 }
 
 label {
@@ -98,6 +100,7 @@ textarea {
     align-self: center;
 }
 
+/*animation*/
 img {
     height: 250px;
     margin: 20px;

@@ -16,8 +16,7 @@
 }
 
 body {
-    position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 footer {
     display: flex;
@@ -25,51 +24,87 @@ footer {
     justify-content: center;
     height: 5vh;
     padding-bottom: 0px;
-    position: absolute;
-    width: 103%
+    position: relative;
+    width: 100%
 }
 
 footer a {
     padding: 15px;
 }
 
-section.cardSoda{
+.cardProduct{
+
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    flex-flow: column wrap;
+    justify-content: center;
+
 }
 
-.soda {
+.imgContainer{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.product {
     width: 250px;
     height: 250px;
-    margin-top: 20%;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 20);
+    box-shadow: 0px 2px 2px rgba(255, 105 ,180);
     border-radius: 20px;
-    border: solid black 1px;
-    
+    border: solid #F76C6C 1px;
 }
 .title {
-    font-family: 'Abril Fatface';
-    font-size: 28px;
+    font-family: 'tahuregular';
+    font-size: 50px;
     margin-top: 5%;
+    text-align: center;
+    color: #F76C6C;
+    margin-top: 15%;
 }
 .subtitle {
-    font: italic;
-}
-.price {
-
-}
-
-.description {
-    margin-top: 50px;
+    font-weight:bold;
     text-align: center;
-    align-self: flex-end;
-    border: solid 2px black;
+    margin-bottom: 10%;
+    background-color: #F76C6C;
+    color: white;
+    padding: 3%;
+    width: 100%;
 }
+
+.price{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 7%;
+    font-family: 'tahuregular';
+    margin-bottom: 7%;
+    font-weight: 100;
+    color: #F76C6C;
+}
+
+
+.productInfo{
+    border: 2px solid #F76C6C;
+    padding: 3%;
+    margin: 3%;
+    background-color: rgba(241, 241, 241, 0.37);
+}
+
+.descriptionProduct{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.buyContain{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+}
+    
 
 
 .favoriteBuy {
+    margin-bottom: 30%;
+    margin-top: 20%;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
