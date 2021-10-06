@@ -78,7 +78,7 @@ footer a {
 }*/
 .title {
     font-family: 'tahuregular';
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 5%;
     text-align: center;
     color: #F76C6C;
@@ -92,6 +92,7 @@ footer a {
     color: #F76C6C;
     /*padding: 3%;*/
     width: 100%;
+    font-size: 40px;
 }
 
 .price{
