@@ -53,6 +53,25 @@ footer a {
     border-radius: 20px;
     border: solid #F76C6C 1px;
 }
+
+.imgContainer img {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    }
+
+.imgContainer:hover img
+{
+    /* L'image est grossie de 50% */
+    -webkit-transform:scale(1.50); /* Safari et Chrome */
+    -moz-transform:scale(1.50); /* Firefox */
+    -ms-transform:scale(1.50); /* Internet Explorer 9 */
+    -o-transform:scale(1.50); /* Opera */
+    transform:scale(1.50);
+}
 .title {
     font-family: 'tahuregular';
     font-size: 50px;
@@ -92,6 +111,7 @@ footer a {
 .descriptionProduct{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
+    font-size: x-large;
 }
 
 .buyContain{
