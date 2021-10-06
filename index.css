@@ -1,3 +1,7 @@
+@media screen { 
+    
+}
+
 body{
     margin: 0;
 }
@@ -47,6 +51,7 @@ body{
     font-size: 20px;
     font-family:'Abril Fatface';
     font-weight: 100;
+    
   }
 
   h1{
@@ -62,7 +67,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
     text-align: center;
-    margin-left: 15%;
     margin-top: 10%;
     color :black;
     border: 3px solid #f76c6c;
@@ -70,21 +74,28 @@ body{
     font-style: italic;
     padding: 7%;
     font-weight:200;
-    position: relative;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+    position : relative;
+    display: flex;
+    justify-content: center;
+
 }
 
 .fleche{
-    position: absolute;
-    left: 43%;
     font-style: normal;
+    position: absolute;
     margin-top: 10%;
+
+}
+
+.mainContain{
+    display: flex;
+    justify-content: center;
 }
 
 
 
-
- /* Marquee*/
+ /* ------------------------------------Marquee------------------------------------------------------------*/
 
 .marquee-container{
     display: flex;
@@ -100,23 +111,23 @@ body{
     padding : 12px 0;
     white-space: nowrap;
     color: #f76c6c;
-    animation: marquee 3s infinite linear;
+    animation: marquee 7s infinite linear;
     display: inline-block;
 }
 
 .marquee:after{
-    content: "Number one of the Wilders gifts";
+    content: "| Number one of the Wilders gifts | Number one of the Wilders gifts ";
 }
 
 @keyframes marquee {
 
     0% {
-        transform: translateX(0);
+        transform: translateX(100%);
 
     }
 
     100%{
-        transform: translateX(-50%);
+        transform: translateX(-100%);
 
     }
 }
@@ -125,9 +136,8 @@ body{
 
 
 
-/*carousel*/
+/*---------------------carousel--------------------*/
 .carouselContain{
-    margin-left: 17%;
     width: 250px;
     height: 250px;
     overflow: auto;
@@ -156,4 +166,42 @@ body{
     100%{
         transform: translateX(0);
     }
+}
+
+/*------------------RESPONSIVE*-------------------------*/
+
+@media (min-width: 600px) {
+
+    .carouselContain{
+        width: 400px;
+        height: 400px;
+        overflow: auto;
+        border: 1px solid #f76c6c;
+        margin-bottom: 20%;
+    }
+    .carouselImg{
+        display: flex;
+        animation-duration: 8s;
+        animation-name: slides;
+        animation-iteration-count: infinite;
+        width: 400px;
+        height: 400px;
+    }
+    
+    @keyframes slides {
+        0% {
+            transform: translateX(0);
+        }
+        33%{
+            transform: translateX(-400px);
+        }
+        66%{
+            transform: translateX(-800px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+    
+
 }
