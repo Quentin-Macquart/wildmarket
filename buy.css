@@ -33,7 +33,7 @@ h1 {
     color : #f76c6c;
     font-family: 'tahuregular';
     padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .articleContainer
@@ -56,7 +56,7 @@ h1 {
     padding-bottom: 12px; 
 }
 
-img
+section img
 {
     background: #FFF2F2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -86,7 +86,7 @@ span
 {
     position: absolute;
     background: #F76C6C;
-    width: 98px;
+    width: 108px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     margin-left : 165px;
@@ -97,11 +97,94 @@ span
 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 45px;
+    justify-content: center;
 }
 
 footer
 {
     margin-top: 40px;
 }
+
+/* Media-Queries */
+@media screen and (max-width: 1200px )
+{
+    .articleContainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin :2vh;
+        width: auto;
+        height: auto;
+        min-width: 363px;
+        min-height: 176px;
+    }
+    .texteArticle
+    {
+        position: absolute;
+        margin-left : 175px;
+        margin-top: -88px;
+        width: 170px;
+    }
+    .buy
+    {
+        margin-left : 205px;
+    }  
+}
+
+
+
+@media screen and (max-width: 812px )
+{
+    .articleContainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin :2vh;
+        width: auto;
+        height: auto;
+        min-width: 363px;
+        min-height: 176px;
+    }
+    .texteArticle
+    {
+        position: absolute;
+        margin-left : 175px;
+        margin-top: -88px;
+        width: 170px;
+    }
+    .buy
+    {
+        margin-left : 205px;
+    }
+}
+
+@media screen and (max-width: 3px )
+{
+    .articleContainer 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin :2vh;
+        width: auto;
+        height: auto;
+        min-width: 363px;
+        min-height: 176px;
+    }
+    .texteArticle
+    {
+        position: absolute;
+        margin-left : 175px;
+        margin-top: -88px;
+        width: 170px;
+    }
+    .buy
+    {
+        margin-left : 205px;
+    }  
+}
+
+
 
