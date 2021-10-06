@@ -39,7 +39,7 @@ p {
 
 .adress{
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 23%;
 }
 
@@ -66,6 +66,7 @@ h1 {
     padding: 16px;
     color: #f76c6c;
     font-family: 'tahuregular';
+    margin-bottom: 10%;
 }
 
 h2 {
@@ -73,7 +74,7 @@ h2 {
     font-size: 25px;
     padding: 30px;
     position: absolute;
-    top: 10%;
+    top: 20%;
     margin-left: 55%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
