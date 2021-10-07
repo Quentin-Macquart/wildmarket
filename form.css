@@ -34,7 +34,7 @@ p {
     font-weight: bold;
     color: white;
     text-shadow: 3px 3px 3px black;
-    width: 100%;
+    width: 50%;
 }
 
 .adress{
@@ -111,6 +111,31 @@ textarea {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+#popup {
+    border: red solid 2px;
+    height: 140vw;
+    width: 99%;
+    position: absolute;
+    top: -1500px;
+    background-color: white;
+}
+
+#popup h1 {
+    padding-top: 60%;
+    text-align: center;
+}
+
+.close {
+    border-radius: 20px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3%;
+    font-size: medium;
+    width: 60%;
+    align-self: center;
+}
+
+
 
 /*Responsive*/
 @media screen and  (min-width: 600px){
