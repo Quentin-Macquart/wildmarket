@@ -79,7 +79,24 @@ p {
     left: 50%;
     opacity: 70%;
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
     position:fixed;    
+=======
+    position:fixed;   
+}
+
+.facebook
+{
+    width: 35px;
+    height: 35px;
+    margin-top: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -1px;
+    opacity: 1;
+>>>>>>> 3019c8b672b5220940520cfcb64c1e65002e3068
 }
 
 footer p {
