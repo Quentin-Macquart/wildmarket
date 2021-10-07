@@ -22,13 +22,14 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     
 }
 
 .about {
     left: 20%;
     top: 15%;
-    font-size: 5rem;
+    font-size: 10vh;
     color: white;
     font-family:'tahuregular';
     text-align: center;
@@ -37,9 +38,9 @@ body {
 }
 
 .titre {
-    text-align: center;
-    font-size: 8 rem;
-    margin-top: 10 px;
+    text-align:center;
+    font-size: 2em;
+    margin-top:  10%;
     margin-bottom: 10%;
     font-family: 'Abril Fatface';
     font-weight: lighter;
@@ -48,7 +49,7 @@ body {
 
 p {
     width: 70%;
-    text-align:justify;
+    text-align: left;
     margin: auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -65,12 +66,12 @@ p {
     background-color: #F76C6C;
     position: relative;
 }
-#box2{
+#box2 {
     background-color: white;
 
 }
 
-img{
+#box1 img{
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -78,10 +79,12 @@ img{
     left: 50%;
     opacity: 70%;
     transform: translate(-50%, -50%);
-    position:fixed;
-
-
-    
+    position:fixed;    
 }
 
-    
+footer p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
