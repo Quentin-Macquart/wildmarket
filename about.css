@@ -22,7 +22,7 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow: hidden;
+    
 }
 
 .about {
@@ -39,7 +39,7 @@ body {
 .titre {
     text-align: center;
     font-size: 8 rem;
-    margin-top: 1O px;
+    margin-top: 10 px;
     margin-bottom: 10%;
     font-family: 'Abril Fatface';
     font-weight: lighter;
@@ -59,6 +59,7 @@ p {
 .box{
     height:100vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    
 }
 #box1{
     background-color: #F76C6C;
@@ -66,6 +67,7 @@ p {
 }
 #box2{
     background-color: white;
+
 }
 
 img{
@@ -76,7 +78,10 @@ img{
     left: 50%;
     opacity: 70%;
     transform: translate(-50%, -50%);
-    position: fixed;
+    position:fixed;
+
+
+    
 }
 
     

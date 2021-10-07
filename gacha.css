@@ -3,6 +3,7 @@ body {
     margin: auto;
     padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
 }
 
 h1, h3, h4 {
@@ -42,8 +43,8 @@ span{
     align-items: center;
     background: #f7c1c1;
     padding: 2%;
-    width: 100%;
     color: black;
+    width: 100vw;
 }
 
 .containIntro img {
@@ -55,11 +56,16 @@ span{
 .prizeContain {
     padding: 2%;
     padding-bottom: 2%;
-    font-size: 3vw;
-    width : 800%;
+    width : 100%;
     color: #f76c6c;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+.prizes1{
+    font-size: 3vh;
+    text-align: center;
 }
 
 p{
@@ -67,14 +73,77 @@ p{
 }
 
 .giftContain{
-    width: 400px;
-    height: 400px;
-    border: 2px solid black;
+    height: 30vh;
+    border: 2px solid rgb(224, 224, 224);
+    background-color: aliceblue;
     display: flex; 
-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    padding:10%;
 }
 
 .gift{
+    font-size: 100%;
+    border: 1px solid #f76c6c;
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: auto;
+    background-color: #f76c6c;
+    height: 30vh;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.releasedGifts {
+    width : 30vw;
+    height: 30vh;
+}
+
+.left{
+    text-align: center;
     font-size: 20px;
-    border: 2px solid black;
+    margin-bottom: 3%;
+    width : 100vw;
+    height: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f76c6c;
+    font-weight:lighter;
+}
+
+.buttonSentence{
+color: black;
+font-size: 13px;
+}
+
+.tryit{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thisTime{
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 3vh;
+    margin-bottom: 8%;
+}
+
+.computer{
+    width: 100vw;
+}
+@media (max-width: 600px) {
+    .containIntro img {
+    margin-right: 10%;
+    width: 18%;
+    cursor: pointer;
+    }   
 }

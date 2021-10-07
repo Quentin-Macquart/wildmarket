@@ -19,7 +19,8 @@ wildLogo.forEach(element => {
 // -------------------------------------------------Typing effect 
 const prizeContain = document.querySelector('.prizeContain');
 const prizes1 = document.createElement('p');
-prizes1.innerText = "Stickers - Mugs -  Github licenses -  Free lessons - Computer";
+prizes1.classList.add("prizes1")
+prizes1.innerText = "Stickers 🌁  - Mugs ♨️  -  Github licenses 🐱 -  Free lessons 📗 - Computer 💻 ";
 prizeContain.appendChild(prizes1);
 // prizes1.style.display = 'none';
 
@@ -97,13 +98,19 @@ const button = document.querySelector('.button');
 button.style.cursor = "pointer";
 //releasedGifts.innerText = givenGifts;
 
+const left = document.createElement("div");
+left.classList.add("left");
+const leftGifts = document.querySelector('.leftGifts');
+leftGifts.appendChild(left);
+
 
 button.addEventListener('click', function(){
   if(gifts.length > 0){
+  left.innerText = "Left to pick :" + parseInt(gifts.length -1);
   lottery();
   releasedGifts.innerText = "Congradulations for your drop : " + givenGifts;
   givenGifts.pop();
 } else {
-    alert("Sorry, there is no more price to pick :(")
+    alert("Sorry, there is no more price to pick : (")
   }
 });
