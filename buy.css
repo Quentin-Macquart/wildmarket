@@ -87,6 +87,7 @@ span
     border-radius: 20px;
     margin-left : 165px;
     margin-top: 130px;
+    cursor: pointer;
 }
 
 .flexArticle
