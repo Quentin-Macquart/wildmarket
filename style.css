@@ -5,6 +5,8 @@
 :root {
     --font-size:1rem;
 }
+
+
 .light-mode {
     --navbar-color:#F76C6C;
     --navbar-bg-color:rgba(255, 255, 255, 0.842) ;
@@ -44,6 +46,7 @@ div.navbarLogo img{
 }
 .navbarLinks {
     display:flex;
+    overflow: hidden;
 }
 .navbarLink {
     padding: 0 10px;
