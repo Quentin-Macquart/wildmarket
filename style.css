@@ -9,7 +9,7 @@
 
 .light-mode {
     --navbar-color:#F76C6C;
-    --navbar-bg-color:rgba(255, 255, 255, 0.842) ;
+    --navbar-bg-color:rgb(255, 255, 255) ;
 }
 .dark-mode {
     --navbar-color:#FFF;
