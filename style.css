@@ -47,6 +47,7 @@ div.navbarLogo img{
 .navbarLinks {
     display:flex;
     overflow: hidden;
+    z-index: 1;
 }
 .navbarLink {
     padding: 0 10px;
