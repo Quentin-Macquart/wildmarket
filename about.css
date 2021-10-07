@@ -22,6 +22,7 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
 }
 
 .about {
@@ -38,7 +39,7 @@ body {
 .titre {
     text-align: center;
     font-size: 8 rem;
-    margin-top: 1O%;
+    margin-top: 1O px;
     margin-bottom: 10%;
     font-family: 'Abril Fatface';
     font-weight: lighter;
