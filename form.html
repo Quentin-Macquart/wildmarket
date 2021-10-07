@@ -47,11 +47,6 @@
     wildmarket@email.com
   </p>
   
-  <div id="popup">
-    <h1>Your message has been sent</h1>
-    <input class="close" type="button" value="close" onclick="closePopup"></input>
-    </div>
-  
   <form id="contactForm">
     <label for="lastName">Lastname:</label>
     <input type="lastName" name="lastName" id="lastName" placeholder="Your last name">
@@ -63,7 +58,12 @@
     <textarea name="message" id="message" placeholder="Write your message"></textarea>
     
     
-    <input class= "button" type="button" value="Submit" onclick="openPopup()">
+    
+    <div id="popup">
+      <h1>Your message has been sent</h1>
+      <input class="close" type="button" value="close" onclick = closePopup()></input>
+      </div>
+    <input class= "button" type="button" value="Submit" onclick = openPopup()>
   </form> 
 
     <footer>
