@@ -35,6 +35,7 @@ body {
     text-align: center;
     position: absolute;
     z-index: 2;
+    opacity: 1;
 }
 
 .titre {
@@ -79,9 +80,6 @@ p {
     left: 50%;
     opacity: 70%;
     transform: translate(-50%, -50%);
-<<<<<<< HEAD
-    position:fixed;    
-=======
     position:fixed;   
 }
 
@@ -93,15 +91,7 @@ p {
     border-radius: 50%;
     cursor: pointer;
     position: absolute;
-    margin-left: -100px;
+    margin-left: -197px;
     margin-top: -1px;
     opacity: 1;
->>>>>>> 3019c8b672b5220940520cfcb64c1e65002e3068
-}
-
-footer p {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:100%;
 }
