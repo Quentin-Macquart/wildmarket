@@ -17,6 +17,7 @@ wildLogo.forEach(element => {
 
 
 // -------------------------------------------------Typing effect 
+
 const prizeContain = document.querySelector('.prizeContain');
 const prizes1 = document.createElement('p');
 prizes1.classList.add("prizes1")
