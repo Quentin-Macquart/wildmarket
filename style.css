@@ -98,6 +98,7 @@ div.navbarLogo img{
     border:none;
     background:transparent;
     cursor:pointer;
+    
 }
 .bar {
     display: block;
@@ -180,10 +181,11 @@ footer {
     height: 5vh;
     padding-bottom: 0px;
     position: absolute;
-    width: 100%
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer a {
-    padding: 15px;
+    padding: 9px;
     color: white;
     font-size: x-large;
 }
