@@ -9,7 +9,7 @@
 
 .light-mode {
     --navbar-color:#F76C6C;
-    --navbar-bg-color:rgb(255, 255, 255) ;
+    --navbar-bg-color:rgb(255, 255, 255);
 }
 .dark-mode {
     --navbar-color:#FFF;
@@ -184,9 +184,19 @@ footer {
     position: absolute;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 footer a {
     padding: 9px;
     color: white;
-    font-size: x-large;
+    font-size: medium;
+}
+
+.facebook
+{
+    width: 35px;
+    height: 35px;
+    margin-top: 3px;
+    border-radius: 50%;
+    cursor: pointer;
 }

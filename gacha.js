@@ -7,9 +7,9 @@ wildLogo.forEach(element => {
   element.addEventListener('click', function(){
 
     if(this.src.includes('wild2')){
-      this.src = '/assets/NBwild.png';
+      this.src = './assets/NBwild.png';
         } else{
-          this.src = '/assets/wild2.png';
+          this.src = './assets/wild2.png';
         };
     });
 });
@@ -17,6 +17,7 @@ wildLogo.forEach(element => {
 
 
 // -------------------------------------------------Typing effect 
+
 const prizeContain = document.querySelector('.prizeContain');
 const prizes1 = document.createElement('p');
 prizes1.classList.add("prizes1")
