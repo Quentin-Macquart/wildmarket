@@ -44,6 +44,10 @@ span{
     justify-content: space-between;
     align-items: center;
     background: #f7c1c1;
+<<<<<<< HEAD
+=======
+    /*padding: 2%;*/
+>>>>>>> f0704038f91f808bdae9231cf8b8ad22d375b082
     color: black;
     width: 100vw;
 }
@@ -55,6 +59,10 @@ span{
 }
 
 .prizeContain {
+<<<<<<< HEAD
+=======
+    /*padding: 2%;*/
+>>>>>>> f0704038f91f808bdae9231cf8b8ad22d375b082
     padding-bottom: 2%;
     width : 100%;
     color: #f76c6c;
