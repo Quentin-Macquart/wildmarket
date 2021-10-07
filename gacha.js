@@ -7,9 +7,9 @@ wildLogo.forEach(element => {
   element.addEventListener('click', function(){
 
     if(this.src.includes('wild2')){
-      this.src = '/assets/NBwild.png';
+      this.src = './assets/NBwild.png';
         } else{
-          this.src = '/assets/wild2.png';
+          this.src = './assets/wild2.png';
         };
     });
 });
