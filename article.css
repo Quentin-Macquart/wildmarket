@@ -38,8 +38,6 @@ footer a {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    box-shadow: 0px 0px 0px rgb(15, 0, 8);
-    border: 1px white black;
     margin: 5%;
 }
 
@@ -51,9 +49,6 @@ footer a {
 .product {
     width: 250px;
     height: 250px;
-    box-shadow: 0px 2px 2px rgba(255, 105 ,180);
-    border-radius: 20px;
-    border: solid #F76C6C 1px;
 }
 
 
@@ -142,17 +137,14 @@ footer a {
         width: 250px;
         height: 250px;
         box-shadow: 0px 0px 0px #F76C6C;
-        border-radius: 0px;
-        border: solid white 1px;
+        border-radius: 15px;
+        border: solid #F76C6C 1px;
     }
     .cardProduct{
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
-        box-shadow: 0px 7px 7px rgb(248, 92, 92);
-        border: 1px solid black;
         margin: 5%;
-        border-radius: 20px;
     }
 }
     @media (min-width: 768px) 
@@ -161,8 +153,6 @@ footer a {
             width: 500px;
             height: 500px;
             box-shadow: 0px 0px 0px #F76C6C;
-            border-radius: 0px;
-            border: solid white 1px;
         }
     .imgContainer img {
         /*La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. 
@@ -183,5 +173,12 @@ footer a {
         transform:scale(1.50);
         margin-bottom: 50px;
         margin-top: 50px;
+    }
+    .cardProduct{
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 5%;
     }
 }

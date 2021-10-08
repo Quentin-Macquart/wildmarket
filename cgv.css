@@ -11,7 +11,7 @@ h1 {
 }
 p {
     margin: 20px;
-    text-align: justify;
+    margin-left: 10%;
     width: 90%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(71, 71, 71, 0.993);
