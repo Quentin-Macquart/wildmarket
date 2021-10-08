@@ -96,15 +96,23 @@ textarea {
 }
 
 .button {
-    border-radius: 20px;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 3%;
-    font-size: medium;
-    width: 60%;
-    align-self: center;
+    margin-top: 5%;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 60px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration-color: black;
+    color: #F76C6C;
+    border: #F76C6C solid 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow:5px 5px 5px #F76C6C;
 }
    .button:hover {
-    background-color: #f76c6c
+    background-color: #f76c6c;
+    color: white;
 }
 
 .button:active {
