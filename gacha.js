@@ -81,23 +81,20 @@ const lottery = () => {
   gifts.splice(number, 1);
 }
 
-// lottery();
-// console.log(givenGifts);
 
-
-
-// comment voir son cadeau ? -> Cliquer (add event listener)
-// Pour chaque clickbutton je dois afficher le cadeau (popup ou texte?)
-// afficher le nombre de cadeaux restants après le click(donc la array.length)
-// Une fois qu'il n'y a plus de cadeaux afficher "there's no more prices"
+// How can i see my gift?  -> Clicking ->  (addeventistener)
+// If there is stil gift, ouput the gift -> (condition)
+// Let's see the rest to pick  -> (so array.length)
+// Ouput "there's no more prices" if there is no more gifts
 
 const giftContain = document.querySelector('.giftContain');
 const releasedGifts = document.createElement('div');
 releasedGifts.classList.add("gift");
 giftContain.appendChild(releasedGifts);
+
 const button = document.querySelector('.button');
 button.style.cursor = "pointer";
-//releasedGifts.innerText = givenGifts;
+
 
 const left = document.createElement("div");
 left.classList.add("left");
@@ -115,3 +112,44 @@ button.addEventListener('click', function(){
     alert("Sorry, there is no more price to pick : (")
   }
 });
+
+//------------------------Bouton Try it!
+
+const containerSlot = document.querySelector(".slot");
+const emojis = ["🌁 ", " ♨️",  "🐱", "📗", "💻", "🎁" ];
+
+button.addEventListener("click", fiesta);
+
+function fiesta() {
+  
+  if(isTweening()) return;
+
+  for (let i = 0; i < 50; i++) {
+    const confetti = document.createElement("div");
+    confetti.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+    containerSlot.appendChild(confetti);
+  }
+
+  animateConfettis();
+}
+
+function animateConfettis() {
+  
+  const TLCONF = gsap.timeline();
+
+  TLCONF.to(".slot div", {
+    y: "random(-100,100)",
+    x: "random(-100,80)",
+    z: "random(0,1000)",
+    rotation: "random(-90,90)",
+    duration: 1,
+  })
+    .to(".slot div", { autoAlpha: 0, duration: 0.3 }, "-=0.2")
+    .add(() => {
+      containerSlot.innerHTML = "";
+    });
+}
+
+function isTweening(){
+  return gsap.isTweening('.slot div');
+}
