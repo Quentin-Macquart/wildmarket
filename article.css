@@ -38,13 +38,8 @@ footer a {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-<<<<<<< HEAD
     box-shadow: 0px 0px 0px rgb(15, 0, 8);
     border: 1px white black;
-=======
-    /*box-shadow: 0px 15px 15px rgb(15, 0, 8);
-    border: 1px solid black;*/
->>>>>>> d9c290113cbd18e1361db5f0b8140bedfc13a23e
     margin: 5%;
 }
 
@@ -61,26 +56,7 @@ footer a {
     border: solid #F76C6C 1px;
 }
 
-/*.imgContainer img {
-    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-    /*-webkit-transition: all 0.5s ease; /* Safari et Chrome */
-    /*-moz-transition: all 0.5s ease; /* Firefox */
-    /*-ms-transition: all 0.5s ease; /* Internet Explorer 9 */
-    /*-o-transition: all 0.5s ease; /* Opera */
-    /*transition: all 0.5s ease;
-    }
 
-.imgContainer:hover img
-{
-    /* L'image est grossie de 50% */
-    /*-webkit-transform:scale(1.50); /* Safari et Chrome */
-    /*-moz-transform:scale(1.50); /* Firefox */
-    /*-ms-transform:scale(1.50); /* Internet Explorer 9 */
-    /*-o-transform:scale(1.50); /* Opera */
-    /*transform:scale(1.50);
-    margin-bottom: 50px;
-    margin-top: 50px;
-}*/
 .title {
     font-family: 'tahuregular';
     font-size: 40px;
@@ -134,27 +110,25 @@ footer a {
 
 
 .favoriteBuy {
-    margin-bottom: 30%;
-    margin-top: 20%;
+    margin-bottom: 3%;
+    margin-top: 3%;
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
+    padding: 0 60px;
     font-size: 1rem;
     text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
+    text-decoration-color: black;
+    color: #F76C6C;
+    border: #F76C6C solid 1px;
     border-radius: 10px;
-    background-color: rgba(220, 0, 0, 1);
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    background-color: white;
+    box-shadow:5px 5px 5px #F76C6C;
 }
 
 .favoriteBuy:hover {
-    background-color: rgba(255, 0, 0, 1);
+    background-color: #F76C6C;
+    color: white;
 }
 
 .favoriteBuy:active {
@@ -162,12 +136,12 @@ footer a {
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-@media (min-width: 600px) {
+@media (max-width: 767.98px) {
 
     .product {
-        width: 500px;
-        height: 500px;
-        box-shadow: 0px 0px 0px rgba(255, 105 ,180);
+        width: 250px;
+        height: 250px;
+        box-shadow: 0px 0px 0px #F76C6C;
         border-radius: 0px;
         border: solid white 1px;
     }
@@ -179,5 +153,35 @@ footer a {
         border: 1px solid black;
         margin: 5%;
         border-radius: 20px;
+    }
+}
+    @media (min-width: 768px) 
+    {
+        .product {
+            width: 500px;
+            height: 500px;
+            box-shadow: 0px 0px 0px #F76C6C;
+            border-radius: 0px;
+            border: solid white 1px;
+        }
+    .imgContainer img {
+        /*La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. 
+        -webkit-transition: all 0.5s ease; /* Safari et Chrome */
+        -moz-transition: all 0.5s ease; /* Firefox */
+        -ms-transition: all 0.5s ease; /* Internet Explorer 9 */
+        -o-transition: all 0.5s ease; /* Opera */
+        transition: all 0.5s ease;
+        }
+    
+    .imgContainer:hover img
+    {
+         /*L'image est grossie de 50% */
+        -webkit-transform:scale(1.50); /* Safari et Chrome */
+        -moz-transform:scale(1.50); /* Firefox */
+        -ms-transform:scale(1.50); /* Internet Explorer 9 */
+        -o-transform:scale(1.50); /* Opera */
+        transform:scale(1.50);
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
 }

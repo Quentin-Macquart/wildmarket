@@ -51,10 +51,11 @@ p {
     height: 70vh;
     padding: 40px;
     font: bold;
+    position: relative;
 }
 
-input {
-    height: 30px;
+#contactForm input {
+    height: 60px;
 }
 
 h1 {
@@ -113,27 +114,48 @@ textarea {
 }
 
 #popup {
-    border: red solid 2px;
-    height: 140vw;
+    display: none;
+    height: 80vh;
     width: 99%;
-    position: absolute;
-    top: -1500px;
+    left: 0;
+    top: 0;
     background-color: white;
+    position: absolute;
+    transition: 0.5s;
 }
 
 #popup h1 {
-    padding-top: 60%;
     text-align: center;
+    padding-top: 30vh;
+    text-shadow: 1px 1px 1px black ;
+}
+
+#popup input{
+    margin-left: 16vw;
 }
 
 .close {
-    border-radius: 20px;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 3%;
-    font-size: medium;
-    width: 60%;
-    align-self: center;
-}
+        margin-top: 5%;
+        border: 0;
+        line-height: 2.5;
+        padding: 0 60px;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration-color: black;
+        color: #F76C6C;
+        border: #F76C6C solid 1px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: white;
+        box-shadow:5px 5px 5px #F76C6C;
+        }        
+        
+        .close:hover {
+        background-color: #F76C6C;
+        color: white;
+    }
+
+
 
 
 
@@ -167,19 +189,29 @@ textarea {
 
 
    .button {
-    padding: 15px 10px;
-    font-size: 24px;
+    height: 10vh;
+    width: 16vw;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
    }
 
-  input {
-      height: 20vh;
-  }
   
-   textarea{
+   textarea {
        height: 70vh;
        width: 50vw;
-   }
-   
+       border-radius: 8px;
+    }
+
+    #popup {
+        display: none;
+    }
+
+    #contactForm input {
+        border-radius: 8px;
+    }
+
+    #popup input{
+        margin-left: 16vw;
+    }
 }
