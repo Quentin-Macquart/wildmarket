@@ -81,13 +81,30 @@ span
 .buy
 {
     position: absolute;
-    background: #F76C6C;
-    width: 108px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    width: 115px;
     margin-left : 165px;
     margin-top: 130px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration-color: black;
+    color: #F76C6C;
+    border: #F76C6C solid 1px;
+    border-radius: 10px;
     cursor: pointer;
+    background-color: white;
+    box-shadow:5px 5px 5px #F76C6C
+}
+
+.buy:hover
+{
+    background-color: #F76C6C;
+    color: white;
+    cursor: pointer;
+}
+
+.buy:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 .flexArticle
